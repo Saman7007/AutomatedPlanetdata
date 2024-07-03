@@ -9,7 +9,7 @@ from requests.auth import HTTPBasicAuth
 if os.environ.get('PL_API_KEY', ''):
     API_KEY = os.environ.get('PL_API_KEY', '')
 else:
-    API_KEY = 'PLAKe10e401cd0fe4822a65c0f6dbb8b5a42'
+    API_KEY = 'Your API Key'
 
 
 # %%
